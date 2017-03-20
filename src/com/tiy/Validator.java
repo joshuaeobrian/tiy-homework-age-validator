@@ -7,7 +7,6 @@ public class Validator {
 
 
 	public boolean validateAge(String age) throws Exception{
-
 		//Checks to see if it is a integer
 		if(isInteger(age)){
 			// checks to see if age is less than 0
@@ -35,11 +34,7 @@ public class Validator {
 		}
 
 		//checks to see if there are an
-		if(Integer.parseInt(age) >= 18){
 			return true;
-		}else{
-			return false;
-		}
 
 	}
 	//checks to see if string is a integer
